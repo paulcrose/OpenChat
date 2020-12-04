@@ -1,0 +1,163 @@
+/*mobile-v*/
+
+body {
+    
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    background-color: #141c3a; 
+    
+}
+
+
+#Chat {
+    
+    color: white;
+    width: 256px;
+    position: absolute;
+    transform: translate(0, -58px);
+    z-index: 1;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: rooney-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .04em;
+}
+
+#Connect {
+    
+    color: white;
+    width: 256px;
+    position: absolute;
+    transform: translate(0, 128px);
+    z-index: 2;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: rooney-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .04em;
+}
+
+#nav {
+    
+    margin: 0px;
+    padding: 16px;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 256px;
+    height: 168px; 
+    background-color: #363d57; 
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+        
+        
+button {
+    
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 0em;
+      border: none; 
+      background-color: #363d57;   
+      background-image: url(images/enter.svg);
+      width: 64px;
+      height: 88px;
+      background-repeat: no-repeat;
+      outline: none; 
+}    
+    
+
+
+@media screen and (min-aspect-ratio: 1/1) {
+
+/*desktop-v*/
+
+    
+body {
+    
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    background-color: #141c3a; 
+    
+}
+
+
+#Chat {
+    
+    color: white;
+    width: 256px;
+    position: absolute;
+    transform: translate(0, -58px);
+    z-index: 1;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: rooney-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .04em;
+    
+}
+
+#Connect {
+    
+    color: white;
+    width: 256px;
+    position: absolute;
+    transform: translate(0, 128px);
+    z-index: 2;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: rooney-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .04em;
+}
+
+#nav {
+    
+    margin: 0px;
+    padding: 16px;
+    border: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 256px;
+    height: 168px; 
+    background-color: #363d57; 
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+        
+        
+button {
+    
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 0em;
+      border: none; 
+      background-color: #363d57;   
+      background-image: url(images/enter.svg);
+      width: 64px;
+      height: 88px;
+      background-repeat: no-repeat;
+      outline: none; 
+}    
+    
+    
+    
+}

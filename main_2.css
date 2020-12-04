@@ -1,0 +1,358 @@
+
+
+@media screen and (max-aspect-ratio: 1/1) {
+
+/*mobile-v*/
+
+body {
+     
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    
+}
+
+
+
+.videofeeds {
+    
+    
+    margin: 0px;
+    padding; 0;
+    background-color: #141c3a; 
+    width: 100vw;
+    height: 100vh;
+         
+}
+
+.localfeed {
+    
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    
+    
+    
+    
+}
+
+.remotefeed {
+    
+    position: absolute;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+    
+}
+    
+
+#localVideo {
+    
+    position: absolute;
+    margin-top: 0;
+    margin-left: 16px;
+    margin-right: auto;
+    width: 29vw;
+    height: 27.5vw;   
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;;
+    background-color: #363d57; 
+}
+    
+  
+#remoteVideo {
+
+    
+    position: absolute;
+    margin-top: 13.75vw;
+    width: 100vw;
+    height: 96vw;   
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-color: #363d57; 
+}
+    
+.nav {
+        
+    
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    
+    
+}
+    
+#buttons {
+    
+    
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-bottom: 32px;
+    width: 48vw;
+    height: 27.5vw; 
+    background-color: #363d57; 
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;;   
+    
+ }  
+    
+    button {
+        
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -75%);
+      font-size: 0em;
+      border: none; 
+      background-color: #363d57;   
+      background-image: url(images/exit.svg);
+      margin-left: 0;
+      margin-top: 0;
+      margin-right: 0px; 
+      margin-bottom: 0;
+      width: 12.5vw;
+      min-width: 6vw;
+      height: 12.5vw;
+      background-repeat: no-repeat;
+      outline:none; 
+        
+    }    
+    
+    #Connect {
+    
+    color: white;
+    position: absolute;
+    width: 48vw;
+    margin-top: 19vw;
+    z-index: 3;
+    text-align: center;
+    font-size: 2.7vh;
+    font-family: rooney-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .04em;
+    
+        
+    }
+    
+    
+}
+
+
+@media screen and (min-aspect-ratio: 1/1) {
+
+/*desktop-v*/
+
+body {
+     
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    
+}
+
+
+
+.videofeeds {
+    
+    
+    margin: 0px;
+    padding; 0;
+    background-color: #141c3a; 
+    width: 100vw;
+    height: 100vh;
+         
+}
+
+.localfeed {
+    
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    max-width: 148vh;
+    height: 100%;
+    
+    
+    
+    
+}
+
+.remotefeed {
+    
+    position: absolute;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+    
+}
+    
+
+#localVideo {
+    
+    position: absolute;
+    margin-top: 12vh;
+    margin-left: 7.5vh;
+    width: 26vh;
+    height: 25vh;   
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-color: #363d57; 
+    
+}
+    
+  
+#remoteVideo {
+
+    
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 50%;
+    margin-right: auto;
+    transform: translate(-50%, 0%);
+    width: 86vh;
+    height: 80vh;   
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-color: #363d57; 
+    
+}
+    
+.nav {
+        
+    
+    position: absolute;
+    z-index: 2;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    margin-right: auto;
+    width: 100%;
+    max-width: 166vh;
+    height: 100%;
+   
+    
+}
+    
+#buttons {
+    
+        
+    display: block;
+    margin-left: auto;
+    margin-right: 7.5vh;
+    margin-top: 76.5vh;
+    width: 28.5vh;
+    height: 13.5vh;  
+    background-color: #363d57; 
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+        
+    } 
+    
+    #Connect {
+    
+    color: white;
+    position: absolute;
+    width: 28.5vh;
+    transform: translate(0, 3.5vh);    
+    z-index: 3;
+    text-align: center;
+    font-size: 2vh;
+    font-family: rooney-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .04em;
+        
+    }
+    
+    button {
+        
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -75%);
+      font-size: 0em;
+      border: none; 
+      background-color: #363d57;   
+      background-image: url(images/exit.svg);
+      margin-left: 0;
+      margin-top: 0;
+      margin-right: 8px; 
+      margin-bottom: 0;
+      width: 5.5vh;
+      min-width: 3vh;
+      height: 5.5vh;
+      background-repeat: no-repeat;
+      outline:none; 
+        
+    }
+    
+}
+    
+/* styling below replace #remoteVideo when applied to mobile camera -- to be sused in future version
+
+.remotecrop {
+    
+    position: relative;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25vw;
+    height: 25vw;   
+    overflow: hidden;
+        
+    }   
+    
+    
+#remoteVideo {
+    
+    
+width: 100%;
+position: absolute;
+bottom: 0;
+transform: translate(0%, 10%);  
+    
+}
+    
+*/
+
+
+
