@@ -59,7 +59,7 @@ body {
 }
         
         
-button {
+/*button {
     
       position: absolute;
       top: 50%;
@@ -72,8 +72,8 @@ button {
       width: 64px;
       height: 88px;
       background-repeat: no-repeat;
-      outline: none; 
-}    
+      outline: none;
+}*/  
     
 
 
@@ -83,81 +83,53 @@ button {
 
     
 body {
-    
-    margin: 0px;
+    margin: 0;
     padding: 0;
     border: 0;
-    background-color: #141c3a; 
-    
+    background-color: #1e1a1a; 
 }
 
-
-#Chat {
-    
-    color: white;
-    width: 256px;
+#title {
     position: absolute;
-    transform: translate(0, -58px);
-    z-index: 1;
-    text-align: center;
-    font-size: 1.3em;
-    font-family: rooney-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: .04em;
-    
+    top: calc(50% - 208px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 208px;
+    height: 48px; 
+    background-image: url(images/title.svg); 
+    background-repeat: no-repeat; 
 }
 
-#Connect {
-    
-    color: white;
-    width: 256px;
-    position: absolute;
-    transform: translate(0, 128px);
-    z-index: 2;
-    text-align: center;
-    font-size: 1.3em;
-    font-family: rooney-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: .04em;
-}
-
-#nav {
-    
-    margin: 0px;
-    padding: 16px;
-    border: 0;
+#logo {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 256px;
-    height: 168px; 
-    background-color: #363d57; 
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border-bottom-left-radius: 16px;
+    height: 256px; 
+    background-image: url(images/logo.svg); 
+    background-repeat: no-repeat; 
 }
-        
-        
+
+#connect {
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+    width: 120px;
+    height: 36px;
+    margin-right: 80px;
+    margin-bottom: 72px; 
+    
+}
+
 button {
-    
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 0em;
-      border: none; 
-      background-color: #363d57;   
-      background-image: url(images/enter.svg);
-      width: 64px;
-      height: 88px;
-      background-repeat: no-repeat;
-      outline: none; 
-}    
-    
-    
+    width: 120px;
+    height: 36px;
+    background-image: url(images/connect.svg); 
+    background-repeat: no-repeat; 
+    outline: none;
+    border: none;
+} 
+        
     
 }
