@@ -33,6 +33,19 @@ body {
       
 }
 
+#connectword {
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+    width: 68px;
+    height: 40px;
+    margin-right: calc(15vw + 56px);
+    margin-bottom: 15vw;
+    background-image: url(images/connect_word.svg); 
+    background-repeat: no-repeat; 
+      
+}
+
 /*#connect_word {
     position: absolute; 
     width: 68px;
