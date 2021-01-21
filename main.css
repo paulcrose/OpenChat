@@ -16,11 +16,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 55vw;
-    height: 55vw; 
+    max-width: 256px;
+    height: 55vw;
+    max-height: 256px; 
     background-image: url(images/logo.svg); 
     background-repeat: no-repeat; 
 }
-
 
 #connect {
     position: absolute;
@@ -46,15 +47,6 @@ body {
       
 }
 
-/*#connect_word {
-    position: absolute; 
-    width: 68px;
-    height: 40px;
-    background-image: url(images/connect_word.svg); 
-    background-repeat: no-repeat; 
-    background-color: red;  
-}*/
-
 button {
     width: 40px;
     height: 40px;
@@ -66,12 +58,10 @@ button {
      
 } 
 
-
 @media screen and (min-aspect-ratio: 1/1) {
 
 /*desktop-v*/
 
-    
 body {
     margin: 0;
     padding: 0;
@@ -121,5 +111,4 @@ button {
     border: none;
 } 
         
-    
 }
