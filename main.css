@@ -1,4 +1,4 @@
-@media screen and (max-aspect-ratio: 1/1) {
+@media screen and (max-width: 480px) {
 
 /*mobile-v*/
 
@@ -58,7 +58,7 @@ button {
      
 } 
 
-@media screen and (min-aspect-ratio: 1/1) {
+@media screen and (min-width: 480px)  {
 
 /*desktop-v*/
 
