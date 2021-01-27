@@ -1,5 +1,4 @@
 
-
 @media screen and (max-width: 480px) {
 
 /*mobile-v*/
@@ -40,10 +39,11 @@ body {
     
 #localVideo {
     position: absolute;
-    margin-top: 0;
-    margin-left: 16px;
+    margin-top: 55vh;
+    transform: translate(0, -82vw);
+    margin-left: 6vw;
     margin-right: auto;
-    width: 29vw;
+    width: 28vw;
     height: 27.5vw;   
     object-fit: cover;
     border-top-left-radius: 16px;
@@ -55,14 +55,12 @@ body {
     
 #remoteVideo {
     position: absolute;
-    margin-top: 13.75vw;
+    margin-top: 55vh;
+    transform: translate(0%, -50%);
     width: 100vw;
     height: 96vw;   
     object-fit: cover;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border-bottom-left-radius: 16px;
+    border-radius: 16px;
     background-color: #363d57; 
 }
     
@@ -206,52 +204,27 @@ body {
 }
     
 #buttons {   
-    display: block;
+    
     margin-left: auto;
     margin-right: 7.5vh;
-    margin-top: 76.5vh;
+    margin-top: 20vh;
     width: 28.5vh;
-    height: 13.5vh;  
+    height: 10vh;  
     background-color: #363d57; 
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border-bottom-left-radius: 16px;     
+          
+}
+
+#messaging {   
+    position: relative;
+    margin-left: auto;
+    margin-right: 7.5vh;
+    margin-top: 10vh;
+    width: 28.5vh;
+    height: 50vh;  
+    background-color: #363d57; 
+    border-radius: 24px;    
 } 
     
-#Connect { 
-    color: white;
-    position: absolute;
-    width: 28.5vh;
-    transform: translate(0, 3.5vh);    
-    z-index: 3;
-    text-align: center;
-    font-size: 2vh;
-    font-family: rooney-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: .04em;      
-}
-    
-button {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -75%);
-    font-size: 0em;
-    border: none; 
-    background-color: #363d57;   
-    background-image: url(images/exit.svg);
-    margin-left: 0;
-    margin-top: 0;
-    margin-right: 8px; 
-    margin-bottom: 0;
-    width: 5.5vh;
-    min-width: 3vh;
-    height: 5.5vh;
-    background-repeat: no-repeat;
-    outline:none; 
-}
     
 }
     
