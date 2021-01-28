@@ -3,25 +3,27 @@
 
 /*mobile-v*/
 
+html {
+    height: calc(var(--rh, 1rh) * 100);
+}
+
 body {
-    margin: 0px;
+    margin: 0;
     padding: 0;
-    border: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #1e1a1a;
 }
 
 .videofeeds {
     margin: 0px;
-    padding; 0;
-    background-color: #141c3a; 
-    width: 100vw;
-    height: 100vh;  
+    width: 100%;
+    height: 100%;  
 }
 
 .localfeed {
     position: absolute;
     z-index: 1;
-    top: 50%;
-    transform: translate(0%, -50%);
     width: 100%;
     height: 100%;
     max-height: 100%;
@@ -35,43 +37,36 @@ body {
     margin-bottom: 0;
     width: 100%;
     height: 100%;
+    max-height: 154vw;
 }
     
 #localVideo {
     position: absolute;
-    margin-top: 55vh;
-    transform: translate(0, -82vw);
+    margin-top: 4vw;
     margin-left: 6vw;
     margin-right: auto;
-    width: 28vw;
-    height: 27.5vw;   
+    width: 24vw;
+    height: 24vw;   
     object-fit: cover;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border-bottom-left-radius: 16px;;
-    background-color: #363d57; 
+    border-radius: 16px;
 }
     
 #remoteVideo {
     position: absolute;
-    margin-top: 55vh;
-    transform: translate(0%, -50%);
-    width: 100vw;
-    height: 96vw;   
+    bottom: 0%;
+    margin-bottom: 26vw;
+    width: 100%;
+    min-height: 96vw;   
     object-fit: cover;
-    border-radius: 16px;
-    background-color: #363d57; 
+    border-radius: 24px;
 }
     
 .nav {
     position: absolute;
     z-index: 2;
-    top: 50%;
-    transform: translate(0%, -50%);
     width: 100%;
     height: 100%;
-    max-height: 100%;
+    max-height: 154vw;
 }
     
 #buttons {
@@ -79,73 +74,31 @@ body {
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 0%);
-    margin-bottom: 32px;
+    margin-bottom: 8vw;
     width: 48vw;
-    height: 27.5vw; 
-    background-color: #363d57; 
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border-bottom-left-radius: 16px;;   
+    height: 12vw; 
+    min-height: 40px;
+    background-color: #2b2727; 
+    border-radius: 16px;
+     
  }  
-    
-button {
-        
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -75%);
-      font-size: 0em;
-      border: none; 
-      background-color: #363d57;   
-      background-image: url(images/exit.svg);
-      margin-left: 0;
-      margin-top: 0;
-      margin-right: 0px; 
-      margin-bottom: 0;
-      width: 12.5vw;
-      min-width: 6vw;
-      height: 12.5vw;
-      background-repeat: no-repeat;
-      outline:none; 
-        
-}    
-    
-    #Connect {
-    
-    color: white;
-    position: absolute;
-    width: 48vw;
-    margin-top: 19vw;
-    z-index: 3;
-    text-align: center;
-    font-size: 2.7vh;
-    font-family: rooney-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: .04em;
-    
-        
-    }
-    
-    
+      
 }
-
 
 @media screen and (min-width: 480px)  {
 
-/*desktop-v*/
+/*desktop-v*/ 
 
 body {
     margin: 0px;
     padding: 0;
     border: 0; 
+    background-color: #1e1a1a;
 }
 
 .videofeeds { 
     margin: 0px;
-    padding; 0;
-    background-color: #141c3a; 
+    padding: 0;
     width: 100vw;
     height: 100vh;  
 }
@@ -228,7 +181,7 @@ body {
     
 }
     
-/* styling below replace #remoteVideo when applied to mobile camera -- to be sused in future version
+/*styling below replace #remoteVideo when applied to mobile camera -- to be sused in future version
 
 .remotecrop {
     
