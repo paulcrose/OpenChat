@@ -133,7 +133,7 @@ window.addEventListener('resize', () => {
 });
 
 
-function CloseTab() { 
+function closeTab() { 
             window.close(); 
         } 
 

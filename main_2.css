@@ -157,15 +157,39 @@ body {
 }
     
 #buttons {   
-    
+    position: relative;
     margin-left: auto;
     margin-right: 7.5vh;
     margin-top: 20vh;
     width: 28.5vh;
     height: 10vh;  
-    background-color: #363d57; 
+    background-color: #1e1a1a; 
           
 }
+
+button {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat; 
+    outline: none;
+    border: none;
+    background-color: #1e1a1a;
+}
+
+#mute {
+    position: absolute;
+    margin-right: 56px;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/mute.svg); 
+} 
+
+#exit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/exit.svg); 
+} 
 
 #messaging {   
     position: relative;
@@ -174,7 +198,7 @@ body {
     margin-top: 10vh;
     width: 28.5vh;
     height: 50vh;  
-    background-color: #363d57; 
+    background-color: #2b2727; 
     border-radius: 24px;    
 } 
     
