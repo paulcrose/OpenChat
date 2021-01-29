@@ -75,13 +75,44 @@ body {
     left: 50%;
     transform: translate(-50%, 0%);
     margin-bottom: 8vw;
-    width: 48vw;
+    width: 200px;
     height: 12vw; 
     min-height: 40px;
-    background-color: #2b2727; 
-    border-radius: 16px;
-     
- }  
+    background-color: #1e1a1a;
+    border-radius: 16px;  
+}  
+
+button {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat; 
+    outline: none;
+    border: none;
+    background-color: #1e1a1a;
+}
+
+#message {
+    position: absolute;
+    margin-right: 160px;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/message.svg); 
+}
+
+#mute {
+    position: absolute;
+    margin-right: 80px;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/mute.svg); 
+} 
+
+#exit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/exit.svg); 
+}
       
 }
 
@@ -174,6 +205,10 @@ button {
     outline: none;
     border: none;
     background-color: #1e1a1a;
+}
+
+#message {
+    display: none;
 }
 
 #mute {
