@@ -11,7 +11,6 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    box-sizing: border-box;
     background-color: #1e1a1a;
 }
 
