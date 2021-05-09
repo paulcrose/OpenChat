@@ -51,6 +51,8 @@ body {
 }
     
 #remoteVideo {
+    border: 5px solid red;
+    box-sizing: border-box;
     position: absolute;
     bottom: 0%;
     margin-bottom: 26vw;
@@ -74,7 +76,7 @@ body {
     left: 50%;
     transform: translate(-50%, 0%);
     margin-bottom: 8vw;
-    width: 200px;
+    width: 40px;
     height: 12vw; 
     min-height: 40px;
     background-color: #1e1a1a;
@@ -90,27 +92,11 @@ button {
     background-color: #1e1a1a;
 }
 
-#message {
-    position: absolute;
-    margin-right: 160px;
-    right: 0;
-    bottom: 0;
-    background-image: url(images/message.svg); 
-}
-
-#mute {
-    position: absolute;
-    margin-right: 80px;
-    right: 0;
-    bottom: 0;
-    background-image: url(images/mute.svg); 
-} 
-
 #exit {
     position: absolute;
     right: 0;
     bottom: 0;
-    background-image: url(images/exit.svg); 
+    background-image: url(images/exit_mobile.svg); 
 }
       
 }
@@ -164,6 +150,22 @@ body {
 }
     
 #remoteVideo {
+    background-color: transparent;
+    border: 5px solid red;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 50%;
+    margin-right: auto;
+    transform: translate(-50%, 0%);
+    width: 85vh;
+    height: 80vh;   
+    object-fit: cover;
+    border-radius: 24px; 
+}
+
+#placeholderVideo {
+    z-index: -1;
     position: absolute;
     margin-top: 10vh;
     margin-left: 50%;
@@ -190,39 +192,28 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: 7.5vh;
-    margin-top: 20vh;
+    margin-top: 10.5vh;
     width: 28.5vh;
     height: 10vh;  
-    background-color: #1e1a1a; 
+    background-color: transparent; 
           
 }
 
 button {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 32px;
     background-repeat: no-repeat; 
     outline: none;
     border: none;
     background-color: #1e1a1a;
 }
 
-#message {
-    display: none;
-}
-
-#mute {
-    position: absolute;
-    margin-right: 56px;
-    right: 0;
-    bottom: 0;
-    background-image: url(images/mute.svg); 
-} 
-
 #exit {
     position: absolute;
     right: 0;
     bottom: 0;
     background-image: url(images/exit.svg); 
+    cursor: pointer; 
 } 
 
 #messaging {   
@@ -233,6 +224,18 @@ button {
     width: 28.5vh;
     height: 50vh;  
     background-color: #2b2727; 
+    border-radius: 24px;    
+}
+
+#textEntry {
+    display: block;   
+    position: relative;
+    margin-left: auto;
+    margin-right: 7.5vh;
+    margin-top: 3vh;
+    width: 28.5vh;
+    height: 7.5vh;  
+    background-color: #6e6969; 
     border-radius: 24px;    
 } 
     

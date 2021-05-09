@@ -104,7 +104,8 @@ button {
     background-repeat: no-repeat; 
     outline: none;
     border: none;
-    background-color: #1e1a1a; 
+    background-color: #1e1a1a;
+    cursor: pointer; 
 } 
         
 }
