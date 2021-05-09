@@ -17,39 +17,24 @@ body {
 
 #logo {
     position: absolute;
-    top: 45%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 55vw;
     max-width: 256px;
     height: 55vw;
     max-height: 256px; 
-    background-image: url(images/logo.svg); 
+    background-image: url(images/logo_mobile.svg); 
     background-repeat: no-repeat; 
 }
 
 #connect {
     position: absolute;
-    bottom: 0;
-    right: 0;  
     width: 40px;
     height: 40px;
-    margin-right: 15vw;
-    margin-bottom: 15vw;
-      
-}
-
-#connectword {
-    position: absolute;
-    bottom: 0;
-    right: 0;  
-    width: 68px;
-    height: 40px;
-    margin-right: calc(15vw + 56px);
-    margin-bottom: 15vw;
-    background-image: url(images/connect_word.svg); 
-    background-repeat: no-repeat; 
-      
+    top: calc(58% + 120px);
+    left: 50%;
+    transform: translate(-50%, -50%);  
 }
 
 button {
@@ -60,12 +45,27 @@ button {
     outline: none;
     border: none;
 } 
+
+#connectword {
+    position: absolute;
+    width: 68px;
+    height: 40px;
+    top: calc(58% + 168px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(images/connect_word.svg); 
+    background-repeat: no-repeat;   
+}
      
 } 
 
 @media screen and (min-width: 480px)  {
 
 /*desktop-v*/
+
+html {
+    height: 100%;
+}
 
 body {
     margin: 0;
@@ -74,46 +74,37 @@ body {
     background-color: #1e1a1a; 
 }
 
-#title {
-    position: absolute;
-    top: calc(50% - 208px);
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 208px;
-    height: 48px; 
-    background-image: url(images/title.svg); 
-    background-repeat: no-repeat; 
-}
 
 #logo {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 256px;
-    height: 256px; 
+    height: 320px; 
     background-image: url(images/logo.svg); 
     background-repeat: no-repeat; 
 }
 
 #connect {
     position: absolute;
-    bottom: 0;
-    right: 0;  
-    width: 120px;
-    height: 36px;
+    top: calc(58% + 160px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 112px;
+    height: 32px;
     margin-right: 80px;
     margin-bottom: 72px; 
-    
 }
 
 button {
-    width: 120px;
-    height: 36px;
+    width: 112px;
+    height: 32px;
     background-image: url(images/connect.svg); 
     background-repeat: no-repeat; 
     outline: none;
     border: none;
+    background-color: #1e1a1a; 
 } 
         
 }
