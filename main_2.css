@@ -51,8 +51,6 @@ body {
 }
     
 #remoteVideo {
-    border: 5px solid red;
-    box-sizing: border-box;
     position: absolute;
     bottom: 0%;
     margin-bottom: 26vw;
@@ -161,8 +159,6 @@ body {
 }
     
 #remoteVideo {
-    background-color: transparent;
-    border: 5px solid red;
     box-sizing: border-box;
     position: absolute;
     margin-top: 10vh;
