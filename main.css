@@ -12,7 +12,10 @@ body {
     padding: 0;
     border: 0;
     height: 100%;
-    background-color: #1e1a1a;  
+    background-color: #1e1a1a; 
+    animation: fadeInAnimation ease .8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;  
 }
 
 #logo {
@@ -71,7 +74,10 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: #1e1a1a; 
+    background-color: #1e1a1a;
+    animation: fadeInAnimation ease .8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;  
 }
 
 
@@ -110,3 +116,11 @@ button {
         
 }
 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
