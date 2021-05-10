@@ -13,7 +13,7 @@ body {
     border: 0;
     height: 100%;
     background-color: #1e1a1a; 
-    animation: fadeInAnimation ease .8s;
+    animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;  
 }
